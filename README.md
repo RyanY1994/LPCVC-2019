@@ -70,4 +70,9 @@ The installation requirements are basically the same as that of the offical obje
 
     Run tflite_test.py in ./data/coco/coco-ovic to test on 7991 images in ./data/coco/coco-ovic/val_ovic.
 
+### Trained Models
+You can download our trained models (.ckpt and .tflite) through the [link] (https://drive.google.com/open?id=1DSXwwqAxG003ja3-Lr_KAwjvh9LOKkN5)
+
+
+
 
