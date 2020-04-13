@@ -44,7 +44,7 @@ The installation requirements are basically the same as that of the offical obje
 
 
 ### Testing
-##### Convert .ckpt to .pb for tflite
+##### Convert .ckpt (refer to the [link](https://drive.google.com/open?id=1DSXwwqAxG003ja3-Lr_KAwjvh9LOKkN5)) to .pb for tflite
 
     python ./LPCVC-2019/export_tflite_ssd_graph.py \
         --pipeline_config_path=./LPCVC-2019/samples/configs/ssd_mobilenet_v2_quantized_300x300_coco_check_43.config \
@@ -53,7 +53,7 @@ The installation requirements are basically the same as that of the offical obje
         --max_detections=100 \
         --add_postprocessing_op=true
  
-##### Convert .pb to .tflite
+##### Convert .pb to .tflite (refer to the [link](https://drive.google.com/open?id=1DSXwwqAxG003ja3-Lr_KAwjvh9LOKkN5))
 
     tflite_convert --graph_def_file=./LPCVC-2019/tmp/model_trained/lpcvc4_check_43/tflite/560197/non_34_convert/tflite_graph.pb \
     --output_format=TFLITE \
@@ -71,7 +71,7 @@ The installation requirements are basically the same as that of the offical obje
     Run tflite_test.py in ./data/coco/coco-ovic to test on 7991 images in ./data/coco/coco-ovic/val_ovic.
 
 ### Trained Models
-You can download our trained models (.ckpt and .tflite) through the [link](https://drive.google.com/open?id=1DSXwwqAxG003ja3-Lr_KAwjvh9LOKkN5)
+You can download our trained models (.ckpt and .tflite) through the [link](https://drive.google.com/open?id=1DSXwwqAxG003ja3-Lr_KAwjvh9LOKkN5). Note that the three models produce similar result on AP metric.
 
 
 
