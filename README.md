@@ -1,5 +1,6 @@
 # LPCVC-2019
-LPCVC-2019 object-detection track by Orange-Control, implemented by Tensorflow (TF>=1.12).
+2nd Prize in Object Detection Track of [2019 IEEE Low-Power Image Recognition Challenge (LPIRC) Online Track](https://lpcv.ai/competitions/2019) by Orange-Control, implemented by Tensorflow (TF>=1.12).
+
 
 ### Installation
 The installation requirements are basically the same as that of the offical object-detection API of Tensorflow, please refer to [Installation.md](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md).
